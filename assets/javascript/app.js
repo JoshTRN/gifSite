@@ -54,7 +54,7 @@ $(document).on("click", ".btn-primary", function() {
     
     // Constructing a queryURL using the gif name
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-      gif + "&api_key=SAnxEHNpqOmgjhmnfN5iDe3YNr4Vx5RF&limit=3";
+      gif + "&api_key=SAnxEHNpqOmgjhmnfN5iDe3YNr4Vx5RF&limit=5";
 
     // Performing an AJAX request with the queryURL
     $.ajax({
